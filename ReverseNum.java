@@ -11,7 +11,7 @@ public class ReverseNum {
 		num=sc.nextInt();
 		t=num;
 	}
-	void reverseNumber() {
+	void reverseNumber() {                     
 	  	int d;
 	  	rev=0;
 	  	while(num>0) {    //1)  123>0      2)   12>0        3)1>0     4)0>0
@@ -31,11 +31,7 @@ public class ReverseNum {
 			System.out.println(t+" is not a pallandrome");
 		}
 	}
-}
-
-public class ReverseNumMain {
-
-		public static void main(String[] args) {
+public static void main(String[] args) {
 			ReverseNum ob=new ReverseNum();
 			ob.inputNum();
 			ob.reverseNumber();
