@@ -5,12 +5,12 @@ import java.util.Iterator;
 
 class Student{
 		int sid;
-		String snmae;
+		String sname;
 		float sfees;
-		public Student(int sid, String snmae, float sfees) {
+		public Student(int sid, String sname, float sfees) {
 			super();
 			this.sid = sid;
-			this.snmae = snmae;
+			this.sname = sname;
 			this.sfees = sfees;
 		}
 		@Override
@@ -45,7 +45,7 @@ public class StudentCollection {
 	System.out.println("SID\tSNAME\tSFEES");
 	while(st.hasNext()) {
 		Student sob=st.next();
-		System.out.println(sob.sid+"\t"sob.sname+"\t"+sob.sfees);
+		System.out.println(sob.sid+"\t"+sob.sname+"\t"+sob.sfees);
 	}
 	
 	
